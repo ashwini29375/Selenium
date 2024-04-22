@@ -27,7 +27,7 @@ public class AlertDemo {
 		alert.accept();
 		
 		//confirmation box Ok/cancel
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("//a[normalize-space()='Alert with OK & Cancel']")).click();
 		driver.findElement(By.xpath("//button[@class='btn btn-primary']")).click();
 		Thread.sleep(2000);
